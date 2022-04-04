@@ -1,4 +1,4 @@
-# ChipWhisperer -- brrutalov edits
+# ChipWhisperer -- brutalov edits
 
 [![Documentation Status](https://readthedocs.org/projects/chipwhisperer/badge/?version=latest)](https://chipwhisperer.readthedocs.io/en/latest/?badge=latest)
 
