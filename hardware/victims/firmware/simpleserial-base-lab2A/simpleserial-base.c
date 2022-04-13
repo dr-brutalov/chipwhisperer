@@ -39,11 +39,30 @@ uint8_t get_pt(uint8_t* pt, uint8_t len)
 	* Start user-specific code here. */
 	trigger_high();
 
-	//16 hex bytes held in 'pt' were sent
-	//from the computer. Store your response
-	//back into 'pt', which will send 16 bytes
-	//back to computer. Can ignore of course if
-	//not needed
+	volatile long int A = 0x2BAA;
+	A *= 2;
+	A *= 2;
+	A *= 2;
+	A *= 2;
+	A *= 2;
+	
+	A *= 2;
+	A *= 2;
+	A *= 2;
+	A *= 2;
+	A *= 2;
+
+	A *= 2;
+	A *= 2;
+	A *= 2;
+	A *= 2;
+	A *= 2;
+	
+	A *= 2;
+	A *= 2;
+	A *= 2;
+	A *= 2;
+	A *= 2;
 
 	trigger_low();
 	/* End user-specific code here. *
