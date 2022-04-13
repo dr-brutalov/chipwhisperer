@@ -40,29 +40,10 @@ uint8_t get_pt(uint8_t* pt, uint8_t len)
 	trigger_high();
 
 	volatile long int A = 0x2BAA;
-	A *= 2;
-	A *= 2;
-	A *= 2;
-	A *= 2;
-	A *= 2;
-	
-	A *= 2;
-	A *= 2;
-	A *= 2;
-	A *= 2;
-	A *= 2;
 
-	A *= 2;
-	A *= 2;
-	A *= 2;
-	A *= 2;
-	A *= 2;
-	
-	A *= 2;
-	A *= 2;
-	A *= 2;
-	A *= 2;
-	A *= 2;
+	for (int i = 0; i < 20; i++){
+		A *= 2;
+	}
 
 	trigger_low();
 	/* End user-specific code here. *
